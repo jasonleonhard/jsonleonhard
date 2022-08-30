@@ -245,3 +245,15 @@ collections:
                   },
                 ],
             }
+
+  - name: "post"
+    label: "Post"
+    folder: "posts"
+    create: true
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Email, name: email, widget: string }
+      - { label: Twitter#, name: twitter, widget: string }
+      - { label: Image, name: authorimage, widget: image }
+      - { label: Description, name: description, widget: string }
+      - { label: Body, name: body, widget: markdown }
