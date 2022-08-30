@@ -1,5 +1,5 @@
 backend:
-  name: jsonleonhard
+  name: github
   repo: jasonleonhard/jsonleonhard
   branch: master
   commit_messages:
